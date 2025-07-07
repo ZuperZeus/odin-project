@@ -1,0 +1,39 @@
+h1 {
+    color: black;
+}
+
+h2 {
+    background-color:black;
+    color: white;
+}
+
+* {
+    color: blue;
+}
+
+.myclass,
+#myid {
+    /* Falls back on the second item if the first is not available */
+    font-family: "Comic Sans", sans-serif;
+    /* Size of the font */
+    font-size: 12px;
+    /* 0-1000, boldness */
+    font-weight: 1000;
+    /* Aligns, right, left, center, justify, end, start */
+    text-align: justify;
+
+    background-color: blanchedalmond;
+}
+
+.myclass {
+    color: green;
+}
+
+#myid {
+    color: red;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
